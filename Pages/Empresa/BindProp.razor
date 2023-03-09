@@ -1,0 +1,110 @@
+@page "/learnblazor/bindprop"
+@using Tangy_Models.LearnBlazorModels
+<div class="row border p-3">
+    <h3 class="text-primary">Product Summary</h3>
+    <h3>BindProp</h3>
+    <h1>Product Name: @_demoProduct.Name </h1><br/>
+    <h2>Status: @_demoProduct.IsActive</h2><br/>
+    Price: @_demoProduct.Price<br/>
+    Price: <input type="number" @bind-value="@_demoProduct.Price"/> <br/>
+    Active: <input type="checkbox" @bind-value="_demoProduct.IsActive"/> <br/>
+
+
+    @if (!String.IsNullOrWhiteSpace(_selectedProp))
+    {
+        <p>
+            Property Value: @_demoProduct.Properties.FirstOrDefault(u => u.Key ==
+                                                                         _selectedProp).Value
+        </p>
+    }
+
+    <div class="row border p-3">
+        <h3 class="text-primary">Product Playground</h3>
+        Product Properties:
+        <select @bind="_selectedProp">
+            @foreach (var prop in _demoProduct.Properties!)
+            {
+                <option value="@prop.Key">@prop.Key</option>
+                <br/>
+            }
+        </select><br/>
+    </div>
+    This product is : @(_demoProduct.IsActive ? "Active" : "Inactive") <br/>
+
+    <div class="col-12 pt-4">
+        <h2 class="text-success">Product Table</h2>
+
+        <table class="table table-striped">
+            <tbody>
+            @foreach (var prod in _products)
+            {
+                <tr>
+                    <td>
+                        <input type="text" @bind-value="prod.Name"
+                               @bind-value:event="oninput"/>
+                    </td>
+                    <td>
+                        <input type="text" @bind-value="prod.Price"
+                               @bind-value:event="oninput"/>
+                    </td>
+                    <td>
+                        <input type="checkbox" @bind-value="prod.IsActive"
+                        checked="@(prod.IsActive?"checked":null)"/>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@code {
+
+    private string _selectedProp = string.Empty;
+
+    readonly DemoProducts _demoProduct = new()
+    {
+        Id = 1,
+        IsActive = true,
+        Name = "Rose Candle",
+        Price = 10.99,
+        Properties = new List<DemoProductProp>
+        {
+            new() { Id = 1, Key = "Pil", Value = "Milk" },
+            new() { Id = 1, Key = "Nivea", Value = "Cream" }
+        }
+    };
+
+    List<DemoProducts> _products = new();
+
+    protected override void OnInitialized()
+    {
+        _products.Add(new()
+        {
+            IsActive = true,
+            Id = 2,
+            Name = "Blossom Lily",
+            Price = 30,
+            Properties = new()
+            {
+                new DemoProductProp { Id = 1, Key = "Flavor", Value = "Lily" },
+                new DemoProductProp { Id = 2, Key = "Size", Value = "18oz" },
+                new DemoProductProp { Id = 3, Key = "Color", Value = "White" }
+            }
+        });
+        _products.Add(new()
+        {
+            IsActive = true,
+            Id = 1,
+            Name = "Midnight Blaze",
+            Price = 200,
+            Properties = new()
+            {
+                new DemoProductProp { Id = 1, Key = "Flavor", Value = "Rose" },
+                new DemoProductProp { Id = 2, Key = "Size", Value = "20oz" },
+                new DemoProductProp { Id = 3, Key = "Color", Value = "Purple" }
+            }
+        });
+    }
+
+}

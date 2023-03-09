@@ -1,0 +1,66 @@
+@page "/learnblazor/demoproduct"
+@using Tangy_Models.LearnBlazorModels
+
+<h3 class="border pt-2 mt-2">Demo Product</h3>
+
+<div class="border p-2 mt-2" style="background-color: azure">
+    <div class="row">
+        @foreach (var product in _products)
+        {
+            <div class="bg-light border p-2 col-5">
+                <h4 class="text-secondary">Product - @product.Id</h4>
+                Name - @product.Name <br/>
+                Show Properties:
+                <input type="checkbox" @bind-value="product.IsActive" checked="@(product.IsActive ? "checked" : null)"/>
+                @if (product.IsActive)
+                {
+                    @foreach (var prodProp in product.Properties!)
+                    {
+                        <p> @prodProp.Key - @prodProp.Value</p>
+                    }
+                }
+                <br/>
+                <input type="button" class="btn btn-danger" style="width:
+                100px;" value="Delete">
+                <input type="button" class="btn btn-success" style="width:
+                                100px;" value="Edit">
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+
+    List<DemoProducts> _products = new();
+
+    protected override void OnInitialized()
+    {
+        _products.Add(new()
+        {
+            IsActive = true,
+            Id = 2,
+            Name = "Blossom Lily",
+            Price = 30,
+            Properties = new()
+            {
+                new DemoProductProp { Id = 1, Key = "Flavor", Value = "Lily" },
+                new DemoProductProp { Id = 2, Key = "Size", Value = "18oz" },
+                new DemoProductProp { Id = 3, Key = "Color", Value = "White" }
+            }
+        });
+        _products.Add(new()
+        {
+            IsActive = true,
+            Id = 1,
+            Name = "Midnight Blaze",
+            Price = 200,
+            Properties = new()
+            {
+                new DemoProductProp { Id = 1, Key = "Flavor", Value = "Rose" },
+                new DemoProductProp { Id = 2, Key = "Size", Value = "20oz" },
+                new DemoProductProp { Id = 3, Key = "Color", Value = "Purple" }
+            }
+        });
+    }
+
+}
