@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\BlazorApp2.csproj": {}
+    "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\BlazorApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\BlazorApp2.csproj": {
+    "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\BlazorApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\BlazorApp2.csproj",
+        "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\BlazorApp2.csproj",
         "projectName": "BlazorApp2",
-        "projectPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\BlazorApp2.csproj",
+        "projectPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\BlazorApp2.csproj",
         "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\obj\\",
+        "outputPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ruben\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\Tangy_Models\\Tangy_Models.csproj": {
-                "projectPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\Tangy_Models\\Tangy_Models.csproj"
+              "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\Tangy_Models.csproj": {
+                "projectPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\Tangy_Models.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\Tangy_Models\\Tangy_Models.csproj": {
+    "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\Tangy_Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\Tangy_Models\\Tangy_Models.csproj",
+        "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\Tangy_Models.csproj",
         "projectName": "Tangy_Models",
-        "projectPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\Tangy_Models\\Tangy_Models.csproj",
+        "projectPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\Tangy_Models.csproj",
         "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\Tangy_Models\\obj\\",
+        "outputPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ruben\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,6 @@
 @page "/learnblazor/demoproduct"
 @using Tangy_Models.LearnBlazorModels
+@using Empresa.LearnBlazorCompononents
 
 <h3 class="border pt-2 mt-2">Demo Product</h3>
 
@@ -7,24 +8,9 @@
     <div class="row">
         @foreach (var product in _products)
         {
-            <div class="bg-light border p-2 col-5">
-                <h4 class="text-secondary">Product - @product.Id</h4>
-                Name - @product.Name <br/>
-                Show Properties:
-                <input type="checkbox" @bind-value="product.IsActive" checked="@(product.IsActive ? "checked" : null)"/>
-                @if (product.IsActive)
-                {
-                    @foreach (var prodProp in product.Properties!)
-                    {
-                        <p> @prodProp.Key - @prodProp.Value</p>
-                    }
-                }
-                <br/>
-                <input type="button" class="btn btn-danger" style="width:
-                100px;" value="Delete">
-                <input type="button" class="btn btn-success" style="width:
-                                100px;" value="Edit">
-            </div>
+            <_ProductProps ProductProp="product" OnFavoriteUpdated="FavoriteCountUpdate"
+                OnLastSelectedProductChange="SelectedProductUpdate"
+                           />
         }
     </div>
 </div>
@@ -32,6 +18,10 @@
 @code {
 
     List<DemoProducts> _products = new();
+
+    private int SelectedFavoriteCount { get; set; } = 0;
+
+    public string LastSelectedProductName { get; set; }
 
     protected override void OnInitialized()
     {
@@ -61,6 +51,28 @@
                 new DemoProductProp { Id = 3, Key = "Color", Value = "Purple" }
             }
         });
+    }
+
+    [Parameter]
+    public EventCallback<string> OnLastSelectedProductChange { get; set; }
+
+    protected void FavoriteCountUpdate(bool isSelected)
+    {
+        if (isSelected)
+        {
+            SelectedFavoriteCount++;
+        }
+        else
+        {
+            SelectedFavoriteCount--;
+        }
+    }
+
+
+
+    protected void LastSelectedProduct(string productName)
+    {
+        LastSelectedProductName = productName;
     }
 
 }
