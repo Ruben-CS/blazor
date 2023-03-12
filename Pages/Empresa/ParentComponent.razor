@@ -1,15 +1,21 @@
 @page "/learnblazor/parentcomponent"
 
 <h3>Parent Child Relation</h3>
-<_ChildComponent Title="This title is passed as a parameter
+<_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a parameter
 from Parent Component">
     Render Fragment From Parent! WooHoo!
 </_ChildComponent>
 
-<_ChildComponent Title="This is second child component">
+<p><b>@MessageText</b></p>
 
+<_ChildComponent Title="This is second child component">
 </_ChildComponent>
 
 @code {
+    public string? MessageText { get; set; } = string.Empty;
 
+    private void ShowMessage()
+    {
+        MessageText = "Tangy button clicked from child component";
+    }
 }
