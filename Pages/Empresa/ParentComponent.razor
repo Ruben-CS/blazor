@@ -13,11 +13,19 @@ from Parent Component">
 
 <p><b>@MessageText</b></p>
 
-<_AnotherChildComponent Placeholder="Placeholder from parent" MaxLength="5">
+<_AnotherChildComponent InputAttributes="InputAttributesFromParent">
 
 </_AnotherChildComponent>
 
 @code {
+
+    public Dictionary<string, object> InputAttributesFromParent { get; set; } = new()
+    {
+        { "required", "required" },
+        { "placeholder", "Initial Text" },
+        {"maxlength", 5}
+    };
+
     public string? MessageText { get; set; } = string.Empty;
 
     private void ShowMessage()
