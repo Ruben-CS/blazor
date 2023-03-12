@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NssQrXNxhRkaAh4RJeAR5P3l5HHzwGeC2uJ+LBZehiRVCNpEZwtOtZQ5F+BQovggP2AgAL+nWfkhPLue3+muRg==",
+  "dgSpecHash": "H1jR2ag1GoIsXkKoh4hUl6D6aFXwCTiNesLmMPzBfhCyOBCAVlNkunFE+yPIWrT+9s+aND6yuydswfnnOf/Teg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\BlazorApp2.csproj",
+  "projectFilePath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\blazor\\BlazorApp2.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

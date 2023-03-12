@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\Tangy_Models.csproj",
+      "projectUniqueName": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\blazor\\Tangy_Models\\Tangy_Models.csproj",
       "projectName": "Tangy_Models",
-      "projectPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\Tangy_Models.csproj",
+      "projectPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\blazor\\Tangy_Models\\Tangy_Models.csproj",
       "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\C#\\blazor\\Tangy_Models\\obj\\",
+      "outputPath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\blazor\\Tangy_Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ruben\\AppData\\Roaming\\NuGet\\NuGet.Config",
