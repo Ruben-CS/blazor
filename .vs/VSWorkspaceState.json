@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data"
+    "\\Data",
+    "\\Pages",
+    "\\Pages\\Empresa"
   ],
-  "SelectedNode": "\\BlazorApp2.sln",
+  "SelectedNode": "\\Pages\\Empresa\\DemoProduct.razor",
   "PreviewInSolutionExplorer": false
 }
