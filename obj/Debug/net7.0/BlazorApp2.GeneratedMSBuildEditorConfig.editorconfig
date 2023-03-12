@@ -9,87 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorApp2
 build_property.RootNamespace = BlazorApp2
-build_property.ProjectDir = C:\Users\ruben\OneDrive\Documents\Repos\BlazorDemo\BlazorApp2\
+build_property.ProjectDir = C:\Users\ruben\OneDrive\Documents\Repos\BlazorDemo\blazor\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ruben\OneDrive\Documents\Repos\BlazorDemo\BlazorApp2
+build_property.MSBuildProjectDirectory = C:\Users\ruben\OneDrive\Documents\Repos\BlazorDemo\blazor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/BindProp.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Empresa/BindProp.razor]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxCaW5kUHJvcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/App.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Counter.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/DemoProduct.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Empresa/DemoProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxEZW1vUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/LearnBlazorCompononents/_AnotherChildComponent.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Empresa/LearnBlazorCompononents/_AnotherChildComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxMZWFybkJsYXpvckNvbXBvbm9uZW50c1xfQW5vdGhlckNoaWxkQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/LearnBlazorCompononents/_ChildComponent.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Empresa/LearnBlazorCompononents/_ChildComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxMZWFybkJsYXpvckNvbXBvbm9uZW50c1xfQ2hpbGRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/LearnBlazorCompononents/_EditDeleteButton.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Empresa/LearnBlazorCompononents/_EditDeleteButton.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxMZWFybkJsYXpvckNvbXBvbm9uZW50c1xfRWRpdERlbGV0ZUJ1dHRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/LearnBlazorCompononents/_GrandChildComponent.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Empresa/LearnBlazorCompononents/_GrandChildComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxMZWFybkJsYXpvckNvbXBvbm9uZW50c1xfR3JhbmRDaGlsZENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/LearnBlazorCompononents/_ProductProps.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Empresa/LearnBlazorCompononents/_ProductProps.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxMZWFybkJsYXpvckNvbXBvbm9uZW50c1xfUHJvZHVjdFByb3BzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/LearnRouting.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxMZWFyblJvdXRpbmcucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Empresa/ParentComponent.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Empresa/ParentComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wcmVzYVxQYXJlbnRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/FetchData.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Index.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Shared/SurveyPrompt.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/_Imports.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Shared/MainLayout.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-g438hy8nqh
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Shared/NavMenu.razor]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8klt50xt3z
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/Error.cshtml]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/BlazorApp2/Pages/_Host.cshtml]
+[C:/Users/ruben/OneDrive/Documents/Repos/BlazorDemo/blazor/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

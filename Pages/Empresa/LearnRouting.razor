@@ -14,6 +14,12 @@
     Navigate to query parameters
 </a>
 
+<button @onclick="NavigateToQueryParam"
+ class="btn
+btn-primary">
+    Navigate to query parameters
+</button>
+
 <button class="btn btn-success" @onclick="LoadParameters">
     Load parameters
 </button>
@@ -41,6 +47,11 @@
         var query = System.Web.HttpUtility.ParseQueryString(absoluteUri.Query);
         Param1 = query["Param1"];
         Param2 = query["Param2"];
+    }
+
+    private void NavigateToQueryParam()
+    {
+        _NavigationManager.NavigateTo("learnRouting?Param1=BlazorApp2&Param2=Blazor");
     }
 
 }

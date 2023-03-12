@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Data",
-    "\\Pages",
-    "\\Pages\\Empresa"
+    "\\Data"
   ],
-  "SelectedNode": "\\Pages\\Empresa\\LearnRouting.razor",
+  "SelectedNode": "\\BlazorApp2.sln",
   "PreviewInSolutionExplorer": false
 }
