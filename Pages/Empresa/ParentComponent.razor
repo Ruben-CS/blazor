@@ -2,7 +2,10 @@
 
 <h3>Parent Child Relation</h3>
 <_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a parameter
-from Parent Component">
+from Parent Component" MessageForGrandChild="This message is from your parent
+ (ParentComponent)">
+
+
     <ChildContent>
         Render Fragment From Parent! WooHoo!
     </ChildContent>
@@ -18,6 +21,8 @@ from Parent Component">
 </_AnotherChildComponent>
 
 @code {
+
+
 
     public string? MessageText { get; set; } = string.Empty;
 
