@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tangy_Models
-build_property.ProjectDir = C:\Users\ruben\OneDrive\Documents\Repos\BlazorDemo\BlazorApp2\Tangy_Models\
+build_property.ProjectDir = C:\Users\ruben\OneDrive\Documents\Repos\BlazorDemo\blazor\Tangy_Models\

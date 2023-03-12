@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l5P7jVajGWZWpMp3JaMCLzUjqevVfnGuuKP75InPObYClhqBLiLDutCjaLs4BpPFiMzzus5EAoDYyalIrvLeZA==",
+  "dgSpecHash": "TRfPO9uJASNVwUMWDbAfp/p/SN4QfSusm3VurtniqCkNPyuS7XcYgVoQpGrPluJErr22zeDDcyxVk/hpVG05bA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\BlazorApp2\\Tangy_Models\\Tangy_Models.csproj",
+  "projectFilePath": "C:\\Users\\ruben\\OneDrive\\Documents\\Repos\\BlazorDemo\\blazor\\Tangy_Models\\Tangy_Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
