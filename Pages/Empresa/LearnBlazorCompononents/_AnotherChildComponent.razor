@@ -2,26 +2,14 @@
     <h4 class="text-primary pt-3">
         Another Child Component
     </h4>
-    <input id="name" @attributes="InputAttributes"/>
+    <input id="name" @attributes="InputAttributes" placeholder="Childe
+    Placeholder"/>
 </div>
 
 @code {
 
-    // [Parameter]
-    // public string? Placeholder { get; set; } = "Initial Text";
-    //
-    // [Parameter]
-    // public string Required { get; set; } = "required";
-    //
-    // [Parameter]
-    // public string MaxLength { get; set; } = "10";
+    [Parameter(CaptureUnmatchedValues = true)]
+    public Dictionary<string, object> InputAttributes { get; set; } = new();
 
-    [Parameter]
-    public Dictionary<string, object> InputAttributes { get; set; } = new()
-    {
-        { "required", "required" },
-        { "placeholder", "Enter name from parent" },
-        {"maxlength", 10}
-    };
 
 }
